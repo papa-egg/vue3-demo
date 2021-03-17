@@ -1,5 +1,4 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import '../pages/index/Index'
 
 export default createRouter({
   history: createWebHistory(),
