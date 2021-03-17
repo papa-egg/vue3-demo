@@ -1,0 +1,6 @@
+@import url("./reset.css");
+
+body{
+    background: #EFF5FA;
+    min-height: 100vh;
+}

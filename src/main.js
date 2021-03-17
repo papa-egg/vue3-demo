@@ -1,4 +1,16 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import { createApp } from 'vue';
+import App from './App.vue';
+import router from './router/router';
+import store from './store/store';
+import http from '@/assets/js/http';
+import ElementPlus from 'element-plus';
+import 'element-plus/lib/theme-chalk/index.css';
 
-createApp(App).mount('#app')
+const app = createApp(App);
+
+app.use(ElementPlus);
+app.use(store);
+app.use(router);
+app.provide('$http', http);
+app.mount('#app');
+

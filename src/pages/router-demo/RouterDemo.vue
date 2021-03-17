@@ -1,5 +1,6 @@
 <template>
   <div>
+    <h3>121212122</h3>
     <router-view></router-view>
   </div>
 </template>
@@ -11,9 +12,4 @@
 </script>
 
 <style>
-  @import "./assets/css/common.css";
 </style>
-
-
-
-
